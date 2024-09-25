@@ -1,0 +1,74 @@
+/* Write your CSS code here */
+img {
+    width: 25px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 2rem;
+    padding-left: 300px;
+}
+.row-1 {
+    width: 60%;
+    height: 30px;
+    background-color: white;
+    position: relative;
+}
+.x-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+p {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    z-index: 1; 
+}
+.row-2 {
+    width: 60%;
+    height: 30px;
+    background-color: violet;
+    position: relative;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(234, 193, 248);
+    min-height: 100vh;
+}
+.row-3 {
+    width: 60%;
+    height: 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 40px;
+}
+.row-4 {
+    width: 60%;
+    height: 30px;
+    background-color: violet;
+    position: relative;
+    border-radius: 40px;
+}
+.row-5 {
+    width: 60%;
+    height: 30px;
+    background-color: white;
+    position: relative;
+   
+}
+.row-6 {
+    width: 60%;
+    height: 30px;
+    background-color: violet;
+    position: relative;
+}
+.row-5 p ,.row-6 p{
+   margin-left: 150px;
+}
+.row-5 img ,.row-6 img{
+    margin-left: 140px;
+}
